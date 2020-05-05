@@ -11,8 +11,10 @@ export class DataBindingComponent implements OnInit {
   valorAtual : string;
   isMouseOver : boolean = false;
 
+  nomeDoCurso: string = 'Angular';
+
   botaoClicado(){
-    alert('Botão clicado!');
+    alert(this.valorAtual);
   }
 
   onKeyUp(event){
